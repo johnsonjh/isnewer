@@ -31,8 +31,8 @@ A free implementation of AT&T Research UNIX V8 `newer(1)`.
     DESCRIPTION
          Newer yields a zero return code if file1 exists and file2
          does not, or if file1 and file2 both exist and file1's
-		 modification time is at least as recent as that of file2.
-		 It yields a non-zero return code otherwise.
+         modification time is at least as recent as that of file2.
+         It yields a non-zero return code otherwise.
   ```
 
 * `isnewer` intends to be compatible with the AT&T Research UNIX V8
