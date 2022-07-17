@@ -6,9 +6,9 @@
      notice and this notice are preserved.  This file is offered "AS-IS",
      without any warranty. -->
 
-# isnewer - A utility to compare file modification dates
+# isnewer - compare file modification dates
 
-`isnewer` is a re-implementation of AT&T Research UNIX V8 `newer(1)`.
+A free implementation of AT&T Research UNIX V8 `newer(1)`.
 
 ## Overview
 
