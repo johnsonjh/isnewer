@@ -1,5 +1,4 @@
-<!-- vim: set nocp ft=markdown ts=2 sw=2 tw=78 cc=78 et nolist wrap lbr :-->
-<!-- vim: set ruler hlsearch incsearch autoindent wildmenu wrapscan :-->
+<!-- vim: set nocp ts=2 sw=2 tw=78 colorcolumn=78 et nolist wrap lbr :-->
 <!-- SPDX-License-Identifier: FSFAP -->
 <!-- Copyright (c) 2022 Jeffrey H. Johnson <trnsz@pobox.com>
      Copying and distribution of this file, with or without modification,
@@ -7,7 +6,9 @@
      notice and this notice are preserved.  This file is offered "AS-IS",
      without any warranty. -->
 
-# isnewer - Reimplementation of AT&T Research UNIX V8 newer(1)
+# isnewer - A utility to compare file modification dates
+
+`isnewer` is a re-implementation of AT&T Research UNIX V8 `newer(1)`.
 
 ## Overview
 
