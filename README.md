@@ -46,6 +46,11 @@ A free implementation of AT&T Research UNIX V8 `newer(1)`.
   with each other and may not be used in conjunction with any date
   comparisons.
 
+## Building
+
+* `isnewer` should work on any POSIX-like system with a C compiler.
+* A convenient `Makefile` for building and running tests is provided.
+
 ## Notes
 
 * No effort is made to utilize sub-second mtime precision
