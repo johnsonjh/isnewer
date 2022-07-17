@@ -13,9 +13,8 @@ A free implementation of AT&T Research UNIX V8 `newer(1)`.
 ## Overview
 
 * It is unfortunately difficult to portably and robustly determine the
-  newer of two files from a UNIX shell script.
-
-* Efforts to standardize this as part of POSIX
+  newer of two files from a UNIX shell script; efforts to standardize
+  this as part of POSIX
   [appear to have stalled](https://www.austingroupbugs.net/view.php?id=375).
 
 * AT&T Research UNIX V8 (never released under a proper FLOSS license)
