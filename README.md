@@ -13,8 +13,9 @@ A free implementation of AT&T Research UNIX V8 `newer(1)`.
 ## Overview
 
 * It is unfortunately difficult to portably and robustly determine the
-  newer of two files from a UNIX shell script.  Efforts to standardize
-  this as part of POSIX
+  newer of two files from a UNIX shell script.
+
+* Efforts to standardize this as part of POSIX
   [appear to have stalled](https://www.austingroupbugs.net/view.php?id=375).
 
 * AT&T Research UNIX V8 (never released under a proper FLOSS license)
@@ -47,9 +48,9 @@ A free implementation of AT&T Research UNIX V8 `newer(1)`.
 
 ## Notes
 
-* No efforts are made to utilize sub-second mtime precision.
-* [mtime comparison considered harmful](https://apenwarr.ca/log/20181113),
-  (at least according to some people).
+* No effort is made to utilize sub-second mtime precision
+* [mtime comparison considered harmful](https://apenwarr.ca/log/20181113)
+  (according to some people)
 
 ## License
 
