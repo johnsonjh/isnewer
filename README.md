@@ -13,12 +13,16 @@ A free implementation of AT&T Research UNIX V8 `newer(1)`.
 ## Overview
 
 * It is unfortunately difficult to portably and robustly determine the
-  newer of two files from a UNIX shell script; efforts to standardize
-  this as part of POSIX
-  [appear to have stalled](https://www.austingroupbugs.net/view.php?id=375).
+  newer of two files from a UNIX shell script - the POSIX baseline
+  [`test(1)`](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/test.html)
+  does not include the `-nt` and `-ot` operators commonly seen on GNU
+  and BSD systems.  Efforts to update the POSIX specification to include
+  these and other widely-implemented `test(1)` extensions appears to have
+  [stalled](https://www.austingroupbugs.net/view.php?id=375).
 
 * AT&T Research UNIX V8 (never released under a proper FLOSS license)
-  provided this functionality via the `newer(1)` utility:
+  from 1985 offers a reasonable precedent, having provided this
+  functionality via the `newer(1)` shell utility:
 
   ```
     NAME
@@ -44,6 +48,14 @@ A free implementation of AT&T Research UNIX V8 `newer(1)`.
 * These new arguments are exclusive; that is, they may not combined
   with each other and may not be used in conjunction with any date
   comparisons.
+
+* The name `isnewer` was chosen for this package to avoid clashing with
+  other utilities of the same name that may be provided by operating
+  systems (*i.e.* Research UNIX V8) or as components of other packages
+  (*i.e.* some versions of teTeX).  Users, system administrators, and
+  distribution packagers can make use of
+  [`alternatives`](https://wiki.debian.org/DebianAlternatives) or a
+  similar facility to provide more convenient access to this utility.
 
 ## Building
 
