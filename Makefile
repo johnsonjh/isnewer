@@ -57,7 +57,7 @@ test check:
         > "/dev/null" 2>&1 ||                                                \
       { $(PRINTF) %s\\n "ERROR: $(AWK) failure; unable to test."; exit 3; }  \
         || $(TRUE)
-	@$(MAKE) -s "test.job" 2>&1 | $(AWK)                                      \
+	@$(MAKE) -s "test.job" 2>&1 | $(AWK)                                     \
       '/ fail$$/{exit_code=1;}/^/{print} END{exit !exit_code}' &&            \
         { $(PRINTF) %s\\n "ERROR: One or more tests failed!"; exit 4; }      \
           || $(TRUE)
