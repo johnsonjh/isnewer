@@ -1,6 +1,6 @@
 <!-- vim: set nocp ts=2 sw=2 tw=78 colorcolumn=78 et nolist wrap lbr :-->
 <!-- SPDX-License-Identifier: FSFAP -->
-<!-- Copyright (c) 2022 Jeffrey H. Johnson <trnsz@pobox.com>
+<!-- Copyright (c) 2022 Jeffrey H. Johnson
      Copying and distribution of this file, with or without modification,
      are permitted in any medium without royalty provided the copyright
      notice and this notice are preserved.  This file is offered "AS-IS",
@@ -74,7 +74,7 @@ A free implementation of AT&T Research UNIX V8 `newer(1)`.
   following Zero-Clause BSD (*0BSD*) license.
 
   ```
-  Copyright (c) 2022 Jeffrey H. Johnson <trnsz@pobox.com>
+  Copyright (c) 2022 Jeffrey H. Johnson <johnsonjh.dev@gmail.com>
 
   Permission to use, copy, modify, and/or distribute this software for
   any purpose with or without fee is hereby granted.
